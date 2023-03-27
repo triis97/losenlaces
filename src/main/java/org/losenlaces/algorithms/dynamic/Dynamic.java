@@ -9,7 +9,7 @@ public class Dynamic {
     // Driver Code
     public static void main(String[] args) {
 
-        Arrays.fill(dp, -1);
+        Arrays.fill(dynamicProgramming, -1);
 
         for (int i = 0; i < 10; i++) {
             int n = new Random().nextInt(15);
@@ -19,7 +19,7 @@ public class Dynamic {
     }
 
     // Initialize array of dp
-    static int[] dp = new int[15];
+    static int[] dynamicProgramming = new int[15];
 
     static int fib(int n) {
         if (n <= 1) return n;
@@ -28,15 +28,20 @@ public class Dynamic {
         // values of fib(n-1) & fib(n-2)
         int first, second;
 
-        if (dp[n - 1] != -1) first = dp[n - 1];
-        else first = fib(n - 1);
+        if (dynamicProgramming[n - 1] != -1) {
+            first = dynamicProgramming[n - 1];
+        } else {
+            first = fib(n - 1);
+        }
 
-        if (dp[n - 2] != -1) second = dp[n - 2];
-        else second = fib(n - 2);
+        if (dynamicProgramming[n - 2] != -1) {
+            second = dynamicProgramming[n - 2];
+        } else {
+            second = fib(n - 2);
+        }
 
         // Memoization
-        return dp[n] = first + second;
+        dynamicProgramming[n] = first + second;
+        return dynamicProgramming[n];
     }
-
-
 }

@@ -11,8 +11,8 @@ public class DisjointSetExample {
         Scanner scan = new Scanner(System.in);
         List<Integer> aux = Arrays.stream(scan.nextLine().split(" ")).map(Integer::parseInt).collect(Collectors.toList());
 
-        //aux.get(0) elementos
-        //aux.get(1)
+        //aux.get(0) numero de elementos en el set
+        //aux.get(1) numero de ordenes a ejecutar
     }
 
     public static void main(String[] args) {
