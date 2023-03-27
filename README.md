@@ -18,9 +18,9 @@ Link a la presentacion [Charla los enlaces](./src/main/resources/presentation/)
 
 ## Concurso
 
-[jornadas-manana](www.hackerrank.com/cpifp-los-enlaces-jornadas-tecnicas-manana)
+www.hackerrank.com/cpifp-los-enlaces-jornadas-tecnicas-manana
 
-[jornadas-tardes](www.hackerrank.com/cpifp-los-enlaces-jornadas-tecnicas-tardes)
+www.hackerrank.com/cpifp-los-enlaces-jornadas-tecnicas-tardes
 
 ## Estructuras de datos
 
