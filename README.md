@@ -13,7 +13,7 @@ Link a la presentacion [Charla los enlaces](./src/main/resources/presentation/)
 
 2. Descargar swagger para ver las apis [swagger-editor](https://github.com/swagger-api/swagger-editor)
 
-3. Api de muestra [test](./src/main/resources/api/TS32291_Nchf_ConvergedCharging.yaml)
+3. [Api de muestra](./src/main/resources/api/TS32291_Nchf_ConvergedCharging.yaml)
 
 
 ## Concurso
