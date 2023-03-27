@@ -71,7 +71,7 @@ www.hackerrank.com/cpifp-los-enlaces-jornadas-tecnicas-tardes
 ## Algoritmos
 
 - Ordenacion
-    - Un algoritmo de busqueda se usa para reorganizar un array o lista de elementos de acuerdo a la comparacion the un operador de los elementos. La comparacion se usa para decider el nuevo orden de los elemenos en la respective estructura de datos
+    - Un algoritmo de ordenacion se usa para reorganizar un array o lista de elementos de acuerdo a la comparacion the un operador de los elementos. La comparacion se usa para decider el nuevo orden de los elemenos en la respective estructura de datos
 
 - [Busqueda](./src/main/java/org/losenlaces/algorithms/search/BinarySearch.java)
     - Los algoritmos de busqueda estan disenados para comprobar si un elemento esta presente o recuperar un element de una lista.
